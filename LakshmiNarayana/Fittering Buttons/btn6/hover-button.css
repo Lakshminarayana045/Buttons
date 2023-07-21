@@ -1,0 +1,26 @@
+body {
+  font-family: "Newsreader", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:rgb(20, 145, 145);
+}
+
+button {
+  border-radius: 50px;
+  background-color:red;
+  border: 5px solid black;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: all 0.2s;
+  border-radius: 50px;
+}
+
+button:hover {
+  border-color: green;
+  color: purple;
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(-0.25em); /* Psitive nums move down */
+  cursor: pointer;
+}
